@@ -1,15 +1,14 @@
 # PIP
 
-This repository contains implementations of the PIP methods and experiments in "Improving the Solution of Indefinite Quadratic Programs and Linear Programs with Complementarity Constraints by a Progressive MIP Method," by Xinyao Zhang, Shaoning Han, and Jong-Shi Pang.
+This repository contains implementations of the PIP methods and experiments in "Improving the Solution of Indefinite Quadratic Programs and Linear Programs with Complementarity Constraints by a Progressive MIP Method," by Xinyao Zhang, Shaoning Han, and Jong-Shi Pang. The manuscript has been accepted by Mathematical Programming Computation.
 
 ## Instances
 
 - **instances**: This folder contains subfolders of StQP and QAP instances studied in the experiments.
 
-  -- stqp_instances: Contains groups of StQP instances of various sizes and density, which are specified in the folder names, along with the generator Julia scripts from "A new semidefinite programming bound for indefinite quadratic forms over a simplex" by I. Nowak.
-  -- qap_instances: Contains groups of QAP instances of various sizes from QAPLIB (R.E. Burkard and S. E. Karisch, and F. Rendl. QAPLIB – A quadratic assignment problem library. Journal of Global Optimization 10: 391–403 (1997). https://coral.ise.lehigh.edu/data-sets/qaplib/)
-
-  --  InvQP instances, not saved in the folder, are generated with seeds [1, 2, 3, 4, 5] in PIP_invqp.py, following the scheme proposed by F. Jara Moroni, J.S. Pang, and A. Wachter in "A study of the difference-of-convex approach for solving linear programs with complementarity constraints" (Mathematical Programming 169: 221–254 (2018)).
+  -- stqp_instances: Contains samples of StQP instances along with the generator Julia scripts proposed in "A new semidefinite programming bound for indefinite quadratic forms over a simplex" by I. Nowak.
+  -- qap_instances: Contains samples of QAP instances from QAPLIB (R.E. Burkard and S. E. Karisch, and F. Rendl. QAPLIB – A quadratic assignment problem library. Journal of Global Optimization 10: 391–403 (1997). https://coral.ise.lehigh.edu/data-sets/qaplib/)
+  --  InvQP instances, following the scheme proposed by F. Jara Moroni, J.S. Pang, and A. Wachter in "A study of the difference-of-convex approach for solving linear programs with complementarity constraints" (Mathematical Programming 169: 221–254 (2018)).
 
 ## Usage
 
@@ -98,6 +97,6 @@ Special thanks to I. Nowak for his design of the StQP instances,
 the contributors to QAPLIB and the QAP instances: R.E. Burkard and S. E. Karisch, and F. Rendl, as well as C.E. Nugent, T.E. Vollmann, and J. Ruml; B. Eschermann and H.J. Wunderlich; E.D. Taillard,
 and F. Jara-Moroni, J.S. Pang, and A. Wachter for their scheme of the inverse QP instances used in our experiments.
 
-Last but not least, we appreciate the guidance from the editors and reviewers.
+Last but not least, we appreciate the guidance from the editors and reviewers from Mathematical Programming Computation.
 
 Contact: Xinyao Zhang - xinyaoz@usc.edu
