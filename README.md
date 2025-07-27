@@ -99,4 +99,6 @@ and F. Jara-Moroni, J.S. Pang, and A. Wachter for their scheme of the inverse QP
 
 Last but not least, we appreciate the guidance from the editors and reviewers from Mathematical Programming Computation.
 
+https://doi.org/10.5281/zenodo.16467564
+
 Contact: Xinyao Zhang - xinyaoz@usc.edu
